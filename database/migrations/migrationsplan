@@ -1,0 +1,21 @@
+Models are PHP classes
+
+for example, animal model is in animal table
+
+animal::get() will get a php collection of all the animals in the animals table
+
+command -> the database migration + model class
+
+you do this with artisan.
+
+./vendor/bin/sail artisan make:model Animal -m
+
+
+In phpsandbox, you use php artisan and then the command.
+
+
+php artisan migrate
+
+blueprints? 
+
+you need to use git commits!
